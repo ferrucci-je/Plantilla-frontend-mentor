@@ -1,0 +1,23 @@
+@import "./_partials/colors", "./_partials/header", "./_partials/raiting", "./_partials/comments";
+
+html {
+    scroll-behavior: smooth;
+    background: url("/images/bg-pattern-top-mobile.svg");
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  
+   a {
+    color: hsl(228, 45%, 44%);
+  }
+}

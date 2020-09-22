@@ -1,0 +1,29 @@
+.raiting{
+    margin-left: 5%;
+    width: 95%;
+    text-align: center;
+        .fas.fa-star{
+            color: #ED8F43;
+            letter-spacing: 10px;
+        }
+    .star {
+        border-radius: 10px;
+        background-color: $fourth-color;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        p {
+            color: $first-color;
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 3%;
+            padding-left: 3%;
+            padding-top: 5%;
+    }
+    }
+    .star:last-child {
+        margin-bottom: 15%;
+    }
+}

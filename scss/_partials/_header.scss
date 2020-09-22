@@ -1,0 +1,21 @@
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    h1{
+        padding-top: 25%;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        z-index: 10;
+        color: $first-color;
+        padding-bottom: 7%;
+        text-align: center;
+    }
+        p {
+            font-size: 15px;
+            font-weight: 500;
+            color: $third-color;
+            z-index: 10;
+            padding-bottom: 7%;
+            text-align: center;
+        }
+    }
