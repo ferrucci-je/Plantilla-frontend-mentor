@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) {
+    header {
+        
+        width: 50%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        h1, p {
+            margin-left: 10% ;
+            text-align: left;
+        }
+        h1 {
+            padding-bottom: 3%;
+        }
+        p {
+            padding-top: 0%;
+        }
+    }
+    
+/*  Comienza Sección Raiting */
+    .raiting {
+        width: 37%;
+        display: inline-flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-left: 0%;
+        .star {
+            width: 100%;
+            padding-bottom: 0%;
+            padding-top: 0%;
+            p {
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-bottom: 0%;
+            padding-top: 0%;
+            text-align: center;
+        }
+    }
+}
+
+    .comments {
+        display: flex;
+        flex-direction: row;
+        .buyers {
+            margin-left: 1.5%;
+            padding-left: 1.5%;
+            padding-top: 1.5%;
+            margin-right: 1.5%;
+            padding-right: 1.5%;
+            margin-bottom: 20%;
+            border-radius: 7px;
+        }
+        .buyers:last-child{
+            margin-bottom: 20%;
+        }
+    }
+}
+
